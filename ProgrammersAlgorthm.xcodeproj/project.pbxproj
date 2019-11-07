@@ -24,6 +24,7 @@
 		FF8E665A2374469C00E7E81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8E665D2374469C00E7E81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF8E665F2374469C00E7E81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8E6665237446F700E7E81A /* Rhyno.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rhyno.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		FF8E66452374469B00E7E81A = {
 			isa = PBXGroup;
 			children = (
+				FF8E6665237446F700E7E81A /* Rhyno.playground */,
 				FF8E66502374469B00E7E81A /* ProgrammersAlgorthm */,
 				FF8E664F2374469B00E7E81A /* Products */,
 			);
