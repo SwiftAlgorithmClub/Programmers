@@ -3,5 +3,7 @@
     <pages>
         <page name='Lv3Ranking'/>
         <page name='Untitled Page'/>
+        <page name='Lv2IntactSquare'/>
+        <page name='Lv2SkillTree'/>
     </pages>
 </playground>
