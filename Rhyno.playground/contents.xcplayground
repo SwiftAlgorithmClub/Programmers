@@ -5,5 +5,7 @@
         <page name='Untitled Page'/>
         <page name='Lv2IntactSquare'/>
         <page name='Lv2SkillTree'/>
+        <page name='Lv3NumberGame'/>
+        <page name='Lv3DualPriorityQueue'/>
     </pages>
 </playground>
