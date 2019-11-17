@@ -7,5 +7,6 @@
         <page name='Lv2SkillTree'/>
         <page name='Lv3NumberGame'/>
         <page name='Lv3DualPriorityQueue'/>
+        <page name='Lv3FlipingPaper'/>
     </pages>
 </playground>
