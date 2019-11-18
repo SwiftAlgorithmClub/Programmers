@@ -2,12 +2,12 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='Lv3Ranking'/>
-        <page name='Untitled Page'/>
+        <page name='Lv3VisitedPath'/>
         <page name='Lv2IntactSquare'/>
         <page name='Lv2SkillTree'/>
         <page name='Lv3NumberGame'/>
         <page name='Lv3DualPriorityQueue'/>
         <page name='Lv3FlipingPaper'/>
-        <page name='Lv5 NofRooms'/>
+        <page name='Lv5NofRooms'/>
     </pages>
 </playground>
