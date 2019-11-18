@@ -8,5 +8,6 @@
         <page name='Lv3NumberGame'/>
         <page name='Lv3DualPriorityQueue'/>
         <page name='Lv3FlipingPaper'/>
+        <page name='Lv5 NofRooms'/>
     </pages>
 </playground>

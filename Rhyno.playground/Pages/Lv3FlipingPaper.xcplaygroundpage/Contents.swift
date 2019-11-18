@@ -2,16 +2,15 @@ import Foundation
 
 func solution(_ n:Int) -> [Int] {
     let totalPiece = 1<<n - 1
-    var result: [Int] = Array(repeating: -1, count: totalPiece)
+    var result: [Int] = Array(repeating: 0, count: totalPiece)
     var queue: [(Int,Int,Int)] = []
     queue.append((0,totalPiece,0))
 
     while let args = queue.popLast() {
         let center = (args.0 + args.1) / 2
 
-        if result[center] == -1 {
-            result[center] = args.2
-        }
+        result[center] = args.2
+
         if center-args.0 > 0 {
             queue.append((args.0, center ,0))
         }
@@ -23,5 +22,3 @@ func solution(_ n:Int) -> [Int] {
 
     return result
 }
-
-solution(4)
