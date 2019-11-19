@@ -9,5 +9,6 @@
         <page name='Lv3DualPriorityQueue'/>
         <page name='Lv3FlipingPaper'/>
         <page name='Lv5NofRooms'/>
+        <page name='Lv4 WordPuzzle'/>
     </pages>
 </playground>
