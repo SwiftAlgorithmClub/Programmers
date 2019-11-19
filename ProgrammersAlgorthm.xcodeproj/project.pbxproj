@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F1FE0D4237A9C4300988742 /* Assin.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assin.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FF8E664E2374469B00E7E81A /* ProgrammersAlgorthm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammersAlgorthm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8E66512374469B00E7E81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF8E66532374469B00E7E81A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		FF8E66452374469B00E7E81A = {
 			isa = PBXGroup;
 			children = (
+				2F1FE0D4237A9C4300988742 /* Assin.playground */,
 				FF8E6665237446F700E7E81A /* Rhyno.playground */,
 				FF8E66502374469B00E7E81A /* ProgrammersAlgorthm */,
 				FF8E664F2374469B00E7E81A /* Products */,
