@@ -10,5 +10,6 @@
         <page name='Lv3FlipingPaper'/>
         <page name='Lv5NofRooms'/>
         <page name='Lv4 WordPuzzle'/>
+        <page name='Lv3Network'/>
     </pages>
 </playground>
