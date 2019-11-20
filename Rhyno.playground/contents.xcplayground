@@ -11,5 +11,6 @@
         <page name='Lv5NofRooms'/>
         <page name='Lv4 WordPuzzle'/>
         <page name='Lv3Network'/>
+        <page name='Lv3LongestPalindrome'/>
     </pages>
 </playground>
