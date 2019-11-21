@@ -12,5 +12,6 @@
         <page name='Lv4 WordPuzzle'/>
         <page name='Lv3Network'/>
         <page name='Lv3LongestPalindrome'/>
+        <page name='Lv3Immigration'/>
     </pages>
 </playground>
