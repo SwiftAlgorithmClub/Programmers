@@ -37,3 +37,4 @@ func solution(_ s:String) -> Int {
 
     return manachers(str)
 }
+
