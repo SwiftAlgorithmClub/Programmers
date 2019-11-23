@@ -14,5 +14,6 @@
         <page name='Lv3LongestPalindrome'/>
         <page name='Lv3Immigration'/>
         <page name='Lv1DescendingReordering'/>
+        <page name='Lv4LandMoving'/>
     </pages>
 </playground>
