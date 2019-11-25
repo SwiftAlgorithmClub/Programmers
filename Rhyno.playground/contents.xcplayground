@@ -15,5 +15,7 @@
         <page name='Lv3Immigration'/>
         <page name='Lv1DescendingReordering'/>
         <page name='Lv4LandMoving'/>
+        <page name='Lv3Hop'/>
+        <page name='Lv2BridgingTruck'/>
     </pages>
 </playground>
