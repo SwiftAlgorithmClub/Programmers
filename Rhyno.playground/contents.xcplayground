@@ -17,5 +17,8 @@
         <page name='Lv4LandMoving'/>
         <page name='Lv3Hop'/>
         <page name='Lv2BridgingTruck'/>
+        <page name='Lv3Hanoi'/>
+        <page name='Lv1HidingPhoneNumber'/>
+        <page name='Lv2FindPrime'/>
     </pages>
 </playground>
