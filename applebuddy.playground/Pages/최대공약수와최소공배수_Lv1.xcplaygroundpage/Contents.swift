@@ -12,6 +12,6 @@ func getLCD(_ A: Int, _ B: Int) -> Int {
     return A * B / getGCD(A, B)
 }
 
-func solution(_ n:Int, _ m:Int) -> [Int] {
+func solution(_ n: Int, _ m: Int) -> [Int] {
     return [getGCD(n, m), getLCD(n, m)]
 }

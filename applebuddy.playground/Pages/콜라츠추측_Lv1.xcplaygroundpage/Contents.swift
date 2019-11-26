@@ -3,10 +3,10 @@
 
 import Foundation
 
-func solution(_ num:Int) -> Int {
+func solution(_ num: Int) -> Int {
     var Cnt = 0, N = num
     if N == 1 { return 0 }
-    while(true) {
+    while true {
         Cnt += 1
         if Cnt > 500 { return -1 }
         if N % 2 == 0 { N /= 2 }

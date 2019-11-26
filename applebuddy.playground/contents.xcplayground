@@ -6,6 +6,14 @@
         <page name='정수내림차순으로배치하기_Lv1'/>
         <page name='탑_Lv2'/>
         <page name='가장큰수_Lv2'/>
-        <page name='최대공약수와최소공배수_Lv1'/>
+        <page name='최대공약수와최소공배수_Lv1'/>
+        <page name='QuickSort'/>
+        <page name='콜라츠추측_Lv1'/>
+        <page name='입국심사_Lv3'/>
+        <page name='LinkedList'/>
+        <page name='멀리뛰기_Lv3'/>
+        <page name='BinaryTree'/>
+        <page name='핸드폰번호가리리_Lv1'/>
+        <page name='하노이의탑_Lv3'/>
     </pages>
 </playground>

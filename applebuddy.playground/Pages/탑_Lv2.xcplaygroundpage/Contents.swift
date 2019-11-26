@@ -15,12 +15,11 @@ func tower(_ heights: [Int]) -> [Int] {
     return Ans
 }
 
-
 //// MARK: - 두번째 푼 버전 (for + whilw문 사용, 제공 테케 기준 첫번째보다 좀더 느림)
 //
 import Foundation
 
-func solution(_ heights:[Int]) -> [Int] {
+func solution(_ heights: [Int]) -> [Int] {
     let arr = heights
     var Ans = [Int](repeating: 0, count: heights.count)
 
@@ -29,11 +28,11 @@ func solution(_ heights:[Int]) -> [Int] {
     for i in arr.indices {
         nowArr.append(arr[i])
         var idx = 0
-        while(!temp.isEmpty) {
+        while !temp.isEmpty {
             if temp.last! > arr[i] { break }
             else {
                 temp.removeLast()
-                idx+=1
+                idx += 1
             }
         }
         temp = nowArr
@@ -42,4 +41,4 @@ func solution(_ heights:[Int]) -> [Int] {
     return Ans
 }
 
-//solution([1,2,3])
+// solution([1,2,3])
