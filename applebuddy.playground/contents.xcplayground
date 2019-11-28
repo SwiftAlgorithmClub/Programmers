@@ -16,6 +16,7 @@
         <page name='하노이의탑_Lv3'/>
         <page name='핸드폰번호가리기_Lv1'/>
         <page name='기능개발_Lv2'/>
-        <page name='올바른괄호의갯수'/>
+        <page name='올바른괄호의갯수_Lv4'/>
+        <page name='가장먼노드_Lv3'/>
     </pages>
 </playground>
