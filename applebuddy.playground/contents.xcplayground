@@ -13,7 +13,9 @@
         <page name='LinkedList'/>
         <page name='멀리뛰기_Lv3'/>
         <page name='BinaryTree'/>
-        <page name='핸드폰번호가리리_Lv1'/>
-        <page name='하노이의탑_Lv3'/>
+        <page name='하노이의탑_Lv3'/>
+        <page name='핸드폰번호가리기_Lv1'/>
+        <page name='기능개발_Lv2'/>
+        <page name='올바른괄호의갯수'/>
     </pages>
 </playground>
