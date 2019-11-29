@@ -18,5 +18,7 @@
         <page name='기능개발_Lv2'/>
         <page name='올바른괄호의갯수_Lv4'/>
         <page name='가장먼노드_Lv3'/>
+        <page name='멀쩡한사각형_Lv2'/>
+        <page name='N-Queen_Lv3'/>
     </pages>
 </playground>
