@@ -20,5 +20,6 @@
         <page name='Lv3Hanoi'/>
         <page name='Lv1HidingPhoneNumber'/>
         <page name='Lv2FindPrime'/>
+        <page name='Lv4RightParenthesse'/>
     </pages>
 </playground>
