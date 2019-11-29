@@ -21,5 +21,6 @@
         <page name='Lv1HidingPhoneNumber'/>
         <page name='Lv2FindPrime'/>
         <page name='Lv4RightParenthesse'/>
+        <page name='Lv2FeatureDevelopment'/>
     </pages>
 </playground>
