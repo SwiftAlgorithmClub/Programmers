@@ -23,5 +23,6 @@
         <page name='Lv4RightParenthesse'/>
         <page name='Lv2FeatureDevelopment'/>
         <page name='Lv3FarestNode'/>
+        <page name='Lv3NQueen'/>
     </pages>
 </playground>
