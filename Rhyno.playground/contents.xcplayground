@@ -24,5 +24,6 @@
         <page name='Lv2FeatureDevelopment'/>
         <page name='Lv3FarestNode'/>
         <page name='Lv3NQueen'/>
+        <page name='Lv2SteelStick'/>
     </pages>
 </playground>
