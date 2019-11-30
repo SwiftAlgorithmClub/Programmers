@@ -25,5 +25,6 @@
         <page name='Lv3FarestNode'/>
         <page name='Lv3NQueen'/>
         <page name='Lv2SteelStick'/>
+        <page name='Lv3ConnectingIsland'/>
     </pages>
 </playground>
