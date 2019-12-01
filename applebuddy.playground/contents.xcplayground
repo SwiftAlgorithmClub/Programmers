@@ -21,5 +21,6 @@
         <page name='멀쩡한사각형_Lv2'/>
         <page name='N-Queen_Lv3'/>
         <page name='쇠막대기_Lv2'/>
+        <page name='섬연결하기_Lv3'/>
     </pages>
 </playground>
