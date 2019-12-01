@@ -13,7 +13,7 @@ func solution2(_ arrangement: String) -> Int {
         if arr[i] == "(" { depth += 1 }
         else {
             depth -= 1
-            if arr[i-1] == "(" { Ans += depth }
+            if arr[i - 1] == "(" { Ans += depth }
             else { Ans += 1 }
         }
     }
@@ -32,7 +32,7 @@ func solution(_ arrangement: String) -> Int {
         if arr[i] == "(" { stk.append(arr[i]) }
         else {
             stk.removeLast()
-            if arr[i-1] == "(" { Ans += stk.count }
+            if arr[i - 1] == "(" { Ans += stk.count }
             else { Ans += 1 }
         }
     }

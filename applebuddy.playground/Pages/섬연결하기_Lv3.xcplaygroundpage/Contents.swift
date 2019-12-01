@@ -22,18 +22,18 @@ func mergeParent(_ A: Int, _ B: Int) {
     else { parent[parentA] = B }
 }
 
-func solution(_ n:Int, _ costs:[[Int]]) -> Int {
+func solution(_ n: Int, _ costs: [[Int]]) -> Int {
     var COST = 0
     var EV = [Edge]()
-    parent = [Int](0..<n+1)
+    parent = [Int](0 ..< n + 1)
 
     for i in costs.indices {
-        EV.append(Edge(node: (costs[i][0],costs[i][1]), W: costs[i][2]))
+        EV.append(Edge(node: (costs[i][0], costs[i][1]), W: costs[i][2]))
     }
 
     EV.sort { $0.W < $1.W }
     var idx = 0, cnt = 0
-    while cnt != n-1 {
+    while cnt != n - 1 {
         let nodeA = EV[idx].node.0
         let nodeB = EV[idx].node.1
         if getParent(nodeA) != getParent(nodeB) {
