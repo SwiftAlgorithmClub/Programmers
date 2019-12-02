@@ -28,5 +28,6 @@
         <page name='Lv3ConnectingIsland'/>
         <page name='Lv2 Fibonacci'/>
         <page name='Lv4 StoneBridge'/>
+        <page name='Lv1Budget'/>
     </pages>
 </playground>
