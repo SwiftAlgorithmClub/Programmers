@@ -4,7 +4,7 @@
 import Foundation
 
 func solution(_ d:[Int], _ budget:Int) -> Int {
-    var arr = d.sorted()
+    let arr = d.sorted()
     var Ans = 0
     var budget = budget
     for i in arr.indices {
