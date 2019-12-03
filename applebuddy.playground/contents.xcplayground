@@ -24,6 +24,7 @@
         <page name='섬연결하기_Lv3'/>
         <page name='피보나치수_Lv2'/>
         <page name='예산_Lv1'/>
-        <page name='배달_Lv3'/>
+        <page name='배달_Lv3'/>
+        <page name='숫자야구_Lv2'/>
     </pages>
 </playground>
