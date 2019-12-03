@@ -3,18 +3,9 @@ import Foundation
 struct DjikstraElement: Comparable {
     let distance: Int
     let vertex: Int
-    let prevVertex: Int
 
     static func <(_ lhs: DjikstraElement, _ rhs: DjikstraElement)->Bool {
-        if lhs.distance != rhs.distance {
-            return lhs.distance < rhs.distance
-        }
-
-        if lhs.vertex != rhs.vertex {
-            return lhs.vertex < rhs.vertex
-        }
-
-        return lhs.prevVertex < rhs.prevVertex
+        return lhs.distance < rhs.distance
     }
 }
 
@@ -23,10 +14,10 @@ extension Array where Element == DjikstraElement {
         var left = 0
         var right = count
 
-        while left<=right {
+        while left<right {
             let mid = (left+right)/2
 
-            if self[mid] < element {
+            if self[mid] > element {
                 left = mid + 1
             } else {
                 right = mid - 1
@@ -51,22 +42,22 @@ func solution(_ N:Int, _ road:[[Int]], _ k:Int) -> Int {
     }
 
     for i in 0..<N {
-        heap.append(DjikstraElement(distance: 123456789, vertex: i, prevVertex: -1))
+        heap.append(DjikstraElement(distance: 123456789, vertex: i))
     }
 
     dist[0] = 0
-    heap[0] = DjikstraElement(distance: 0, vertex: 0, prevVertex: -1)
+    heap[0] = DjikstraElement(distance: 0, vertex: 0)
 
     while !heap.isEmpty {
-        let v = heap.removeFirst()
+        let v = heap.removeLast()
 
         if v.distance<=dist[v.vertex] {
             for i in 0..<N {
-                let temp = Swift.min(dist[i], dist[v.vertex]+graph[v.vertex][i])
+                let temp =  dist[v.vertex]+graph[v.vertex][i]
 
-                if dist[i]>temp {
+                if dist[i]> temp {
                     dist[i] = temp
-                    heap.binaryInsert(DjikstraElement(distance: temp, vertex: i, prevVertex: v.vertex))
+                    heap.binaryInsert(DjikstraElement(distance: temp, vertex: i))
                 }
             }
         }
