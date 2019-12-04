@@ -31,5 +31,6 @@
         <page name='Lv1Budget'/>
         <page name='Lv3 Delivery'/>
         <page name='Lv2NumberBaseball'/>
+        <page name='Lv3WordChange'/>
     </pages>
 </playground>
