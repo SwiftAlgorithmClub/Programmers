@@ -32,5 +32,7 @@
         <page name='Lv3 Delivery'/>
         <page name='Lv2NumberBaseball'/>
         <page name='Lv3WordChange'/>
+        <page name='Lv4Sticker'/>
+        <page name='Lv2RightBeforeSong'/>
     </pages>
 </playground>
