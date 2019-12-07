@@ -34,5 +34,6 @@
         <page name='Lv3WordChange'/>
         <page name='Lv4Sticker'/>
         <page name='Lv2RightBeforeSong'/>
+        <page name='Lv3DiskController'/>
     </pages>
 </playground>
