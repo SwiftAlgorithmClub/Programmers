@@ -3,11 +3,10 @@
 
 import Foundation
 
-func solution(_ baseball:[[Int]]) -> Int {
-
+func solution(_ baseball: [[Int]]) -> Int {
     var answer = 0
-    for i in 123...987 {
-        var dic = [Character:Int]()
+    for i in 123 ... 987 {
+        var dic = [Character: Int]()
         var ansArr = Array(String(i))
         var flag = true
         for i in ansArr.indices { dic[ansArr[i]] = dic[ansArr[i]] ?? 0 + 1 }

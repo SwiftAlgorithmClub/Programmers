@@ -3,7 +3,7 @@
 
 import Foundation
 
-func solution(_ d:[Int], _ budget:Int) -> Int {
+func solution(_ d: [Int], _ budget: Int) -> Int {
     let arr = d.sorted()
     var Ans = 0
     var budget = budget
