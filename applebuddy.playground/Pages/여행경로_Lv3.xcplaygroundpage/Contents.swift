@@ -4,19 +4,16 @@
 import Foundation
 
 var Ans = [String]()
-
-func DFS(_ start: String, _ count: Int, _ visit: inout [Bool], _ route: inout [String], _ tickets: inout [[String]]) -> Bool {
+func DFS(_ start: String, _ count: Int, _ route: inout [String], _ tickets: inout [[String]], _ visited: inout [Bool]) -> Bool {
     route.append(start)
-    if count == tickets.count { Ans = route; return true }
-
+    if tickets.count == count { Ans = route; return true }
     for i in tickets.indices {
-        if tickets[i][0] != start || visit[i] == true { continue }
-        visit[i] = true
-        if DFS(tickets[i][1], count + 1, &visit, &route, &tickets) {
+        if tickets[i][0] != start || visited[i] { continue }
+        visited[i] = true
+        if DFS(tickets[i][1], count + 1, &route, &tickets, &visited) {
             return true
-        } else {
-            visit[i] = false
         }
+        visited[i] = false
     }
 
     route.removeLast()
@@ -24,12 +21,9 @@ func DFS(_ start: String, _ count: Int, _ visit: inout [Bool], _ route: inout [S
 }
 
 func solution(_ tickets: [[String]]) -> [String] {
-    var visit = [Bool](repeating: false, count: 10001)
+    var sortedTicket = tickets.sorted { $0.joined() < $1.joined() }
+    var visited = [Bool](repeating: false, count: 10001)
     var route = [String]()
-    var Ticket = tickets.sorted {
-        $0.joined() < $1.joined()
-    }
-
-    let isSucceed = DFS("ICN", 0, &visit, &route, &Ticket)
-    return isSucceed ? Ans : []
+    DFS("ICN", 0, &route, &sortedTicket, &visited)
+    return Ans
 }
