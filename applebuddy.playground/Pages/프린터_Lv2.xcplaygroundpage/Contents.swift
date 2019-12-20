@@ -3,13 +3,13 @@
 
 import Foundation
 
-func solution(_ priorities:[Int], _ location:Int) -> Int {
+func solution(_ priorities: [Int], _ location: Int) -> Int {
     var maxQueue = priorities.sorted()
-    var pArr = [(Int,Int)]()
-    for i in priorities.indices { pArr.append((i,priorities[i])) }
-    
+    var pArr = [(Int, Int)]()
+    for i in priorities.indices { pArr.append((i, priorities[i])) }
+
     var Ans = 0
-    while(!maxQueue.isEmpty) {
+    while !maxQueue.isEmpty {
         if pArr.first!.1 == maxQueue.last! {
             Ans += 1
             if pArr.first!.0 == location { break }
@@ -23,6 +23,6 @@ func solution(_ priorities:[Int], _ location:Int) -> Int {
             pArr.append(front)
         }
     }
-    
+
     return Ans
 }

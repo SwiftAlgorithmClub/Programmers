@@ -3,7 +3,7 @@
 
 import Foundation
 
-func solution(_ citations:[Int]) -> Int {
+func solution(_ citations: [Int]) -> Int {
     let citat = citations.sorted()
     for H in stride(from: 1000, to: 0, by: -1) {
         var qCnt = 0
@@ -17,9 +17,8 @@ func solution(_ citations:[Int]) -> Int {
                 }
             }
         }
-        if H <= qCnt && flag { return H }
+        if H <= qCnt, flag { return H }
     }
-    
+
     return 0
 }
-
