@@ -36,5 +36,6 @@
         <page name='Lv2RightBeforeSong'/>
         <page name='Lv3DiskController'/>
         <page name='Lv1KthElement'/>
+        <page name='Lv2ExpectedRoster'/>
     </pages>
 </playground>
