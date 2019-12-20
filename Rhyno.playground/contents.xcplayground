@@ -35,5 +35,6 @@
         <page name='Lv4Sticker'/>
         <page name='Lv2RightBeforeSong'/>
         <page name='Lv3DiskController'/>
+        <page name='Lv1KthElement'/>
     </pages>
 </playground>
