@@ -35,6 +35,7 @@
         <page name='H-Index_Lv2'/>
         <page name='예상대진표_Lv2'/>
         <page name='조이스틱_Lv2'/>
-        <page name='K번째수_Lv2'/>
+        <page name='K번째수_Lv2'/>
+        <page name='가운데글자가져오기_Lv1'/>
     </pages>
 </playground>
