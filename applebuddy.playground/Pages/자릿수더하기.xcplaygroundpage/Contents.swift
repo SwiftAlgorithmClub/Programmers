@@ -3,10 +3,9 @@
 
 import Foundation
 
-func solution(_ n:Int) -> Int
-{
+func solution(_ n: Int) -> Int {
     var N = n, Ans = 0
-    while(N > 0) {
+    while N > 0 {
         Ans += N % 10
         N /= 10
     }
