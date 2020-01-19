@@ -2,6 +2,14 @@
 <playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='12987'/>
-        <page name='x만큼 간격이 있는 n개의 숫자 '/>
+        <page name='SkilTest2'/>
+        <page name='x만큼 간격이 있는 n개의 숫자 '/>
+        <page name='42587_ 프린터'/>
+        <page name='괄호 변환 '/>
+        <page name='42578_위장'/>
+        <page name='43238_입국심사'/>
+        <page name='12911_다음큰숫자'/>
+        <page name='42585_쇠막대기'/>
+        <page name='12909_올바른괄호'/>
     </pages>
 </playground>
